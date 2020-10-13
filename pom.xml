@@ -25,7 +25,7 @@
 		<version.gson>2.8.2</version.gson>
 		<version.appslandia-common>7.9</version.appslandia-common>
 
-		<version.junit>4.12</version.junit>
+		<version.junit>4.13.1</version.junit>
 		<version.wiremock>2.14.0</version.wiremock>
 	</properties>
 
