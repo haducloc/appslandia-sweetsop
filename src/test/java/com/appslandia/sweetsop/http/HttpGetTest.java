@@ -109,7 +109,7 @@ public class HttpGetTest {
 
 		HttpClient httpClient = null;
 		try {
-			String url = baseUrl() + "?" + URLUtils.toQueryParams(new Params().put("p1", "v1").put("p2", "v 2"));
+			String url = baseUrl() + "?" + URLUtils.toQueryParams(new Params().set("p1", "v1").set("p2", "v 2"));
 
 			httpClient = HttpClient.get(url);
 			httpClient.execute();
